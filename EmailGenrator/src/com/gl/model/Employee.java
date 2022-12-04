@@ -5,8 +5,29 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String department;
-	private String companyName;
+	private String genratedEmail;
+	private String genratedPassword;
 	
+	public String getGenratedEmail() {
+		return genratedEmail;
+	}
+
+
+	public void setGenratedEmail(String genratedEmail) {
+		this.genratedEmail = genratedEmail;
+	}
+
+
+	public String getGenratedPassword() {
+		return genratedPassword;
+	}
+
+
+	public void setGenratedPassword(String genratedPassword) {
+		this.genratedPassword = genratedPassword;
+	}
+
+
 	public Employee(String firstName, String lastName, String department) {
 		super();
 		this.firstName = firstName;
@@ -25,14 +46,6 @@ public class Employee {
 	}
 
 
-	public String getCompanyName() {
-		return companyName;
-	}
-
-
-	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
-	}
 
 	
 	
